@@ -1,0 +1,40 @@
+.statement{
+    width: 100%;
+    margin: auto;
+    background-color: #c71c3b;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.statement .card-text{
+    width: 80%;
+    color: white;
+}
+.statement .card-description{
+    font-size: 50px;
+}
+.statement a{
+    background-color: white;
+    color: #c71c3b;
+    padding: 10px 40px;
+}
+.statement a:hover{
+    background-color: #33234e;
+    color: white;
+}
+@media (max-width: 991px) {
+    .statement{
+        flex-direction: column;
+    }
+    .statement .card-text{
+        width: 100%;
+    }
+    .statement .card-title{
+        text-align: center;
+        width: 100%;
+    }
+    .statement .card-description{
+        font-size: 40px;
+        text-align: center;
+    }
+}

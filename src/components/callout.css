@@ -1,0 +1,41 @@
+.callout .callout-content .main-title {
+  font-size: 40px;
+}
+
+.callout-button {
+  background-color: transparent;
+  border: 2px solid #c71c3b;
+  color: #c71c3b
+}
+
+.callout-button:hover {
+  background-color: #c71c3b;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .callout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .callout .callout-content, .callout .callout-image{
+    width: 100%;
+  } 
+}
+
+@media (max-width: 991px) {
+  .callout {
+    flex-direction: column-reverse;
+  }
+  .callout .callout-content {
+    margin: 25px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .callout .callout-content .main-title {
+    font-size: 35px;
+  }
+}

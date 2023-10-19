@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+  font-family: 'Kanit', sans-serif;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+.navbar a{
+  font-size: 20px;
+}
+.back-nav{
+  height: 90px;
+}
+#navbarNav{
+  position: relative;
+}
+#navbarNav .nav-item{
+  margin: 0 15px;
+}
+#navbarNav .nav-link.active {
+  border-bottom: 2px solid #c71c3b;
+}
+
+#navbarNav .btn-courses{
+  min-width: 150px;
+  background-color: #c71c3b;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.btn-courses span{
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .back-nav{
+    height: 56px;
+  }
+  #navbarNav .btn-courses{
+    min-width: 100%;
+    background-color: #c71c3b;
+    position: inherit;
+    margin-top: 10px;
+  }
+}
