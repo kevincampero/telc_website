@@ -1,0 +1,23 @@
+.contact{
+  min-height: 60.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .principal-title {
+  margin-top: 0;
+}
+form .btn-whatsapp {
+  background-color: #33234e;
+  color: #fff;
+  border: solid #33234e;
+}
+form .btn-whatsapp:hover {
+  background-color: #fff;
+  color: #33234e;
+  border: solid #33234e;
+}
+form textarea{
+    resize: none;
+    height: 200px;
+}

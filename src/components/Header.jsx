@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
+  useEffect(() => {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navLinks.forEach((navLink) => {
+      navLink.addEventListener("click", function () {
+        if (navbarCollapse.classList.contains("show")) {
+          navbarCollapse.classList.remove("show");
+        }
+      });
+    });
+  }, []);
   return (
-    <>
+  <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary py-lg-4">
       <div className="container">
         <a className="navbar-brand" href="/">
@@ -59,9 +71,8 @@ const Header = () => {
       </div>
     </nav>
     <div className="back-nav"></div>
-    </>
+  </>
     
   );
 };
-
 export default Header;

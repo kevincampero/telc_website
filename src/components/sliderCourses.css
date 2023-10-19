@@ -1,0 +1,76 @@
+.secondary-category{
+  color: #33234e;
+}
+.slider-courses .slick-slide .card {
+  width: 300px !important;
+  height: 360px;
+  padding: 0;
+}
+.slider-courses .slick-slide .card img{
+  max-height: 198px;
+}
+.slider-courses .slick-slide .card-body .card-text{
+  font-size: 23px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.slider-courses .slick-slider button {
+  padding: 10px 2px;
+  width: 50px;
+  height: 50px;
+  z-index: 19;
+  background: #c71c3b !important;
+}
+.slider-courses .slick-slider button:hover {
+  padding: 10px 2px;
+  width: 50px;
+  height: 50px;
+  background: #33234e !important;
+}
+.slider-courses .text-price{
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  color: #c71c3b;
+}
+@media (max-width: 1400px) {
+  .slider-courses .slick-slide .card{
+    margin: 0 2.5%;
+    width: 95% !important;
+    height: 385px;
+  }
+  .slider-courses .slick-slide .card img{
+    max-height: 195px;
+  }
+  .slider-courses .slick-slide .card-body .card-text{
+    height: 50px;
+  }
+  .slider-courses .slick-slide .card-body .card-stars{
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (max-width: 991px) {
+  .slider-courses .slick-next{
+    right: 0;
+  }
+  .slider-courses .slick-prev{
+    left: 0;
+  }
+  .slider-courses .slick-slide .card{
+    margin: 0 2.5%;
+    height: 75vh;
+    width: 100%;
+    min-height: 445px;
+    max-height: 550px;
+  }
+  .slider-courses .slick-slide .card img{
+    max-height: 325px;
+    min-height: 300px;
+  }
+  .slider-courses .slick-slide .card-body .card-text{
+    height: 38vh;
+    min-height: 150px;
+    max-height: 200px;
+  }
+}

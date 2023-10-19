@@ -3,7 +3,7 @@ import "./statement.css";
 
 const Statement = ({ title, description, enlace }) => {
   return (
-    <div className="container my-2">
+    <div className="container my-2 py-5">
       <div className="statement card">
         <div className="card-text d-flex justify-content-center align-items-start flex-column">
           <h5 className="card-title">{title}</h5>

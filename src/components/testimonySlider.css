@@ -1,7 +1,6 @@
 .principal-title{
   text-align: center;
   color: #c71c3b;
-  margin-top: 40px;
 }
 .testimony-slider{
   margin-top: 20px;
@@ -10,77 +9,78 @@
 .slick-track{
   margin-bottom: 10px;
 }
-.slick-slide .card{
+.testimony .slick-slide .card{
   width: 400px !important;
   height: 420px;
 }
-.slick-slider button{
+.testimony .slick-slider button{
   padding: 10px 2px;
   width: 50px;
   height: 50px;
   z-index: 19;
   background: #c71c3b !important;
 }
-.slick-slider button:hover{
+.testimony .slick-slider button:hover{
   padding: 10px 2px;
   width: 50px;
   height: 50px;
   background: #33234e !important;
 }
-.card-top .image-container{
+.testimony .card-top .image-container{
   width: 65px;
   height: 65px;
   overflow: hidden;
   border-radius: 50%;
 }
-.card-top .image-container .card-img-top{
+.testimony .card-top .image-container .card-img-top{
   width: 100%
 }
-.card-top .profile{
+.testimony .card-top .profile{
   display: flex;
   flex-direction: column;
   padding: 5px 15px;
 }
-.card-top .profile h5{
+.testimony .card-top .profile h5{
   margin: 0;
 }
-.card-top .profile p{
+.testimony .card-top .profile p{
   color: #c71c3b;
   margin: 0;
 }
-.slick-slide .card-body .card-text{
+.testimony .slick-slide .card-body .card-text{
   height: 230px;
 }
 @media (max-width: 1400px) {
-  .slick-slide .card{
+  .testimony .slick-slide .card{
     width: 95% !important;
     height: 385px;
   }
-  .slick-slide .card-body .card-text{
+  .testimony .slick-slide .card-body .card-text{
     height: 200px;
   }
-  .slick-slide .card-body .card-stars{
+  .testimony .slick-slide .card-body .card-stars{
     position: absolute;
     bottom: 0;
   }
 }
 @media (max-width: 991px) {
-  .slick-next{
+  .testimony .slick-next{
     right: 0;
   }
-  .slick-prev{
+  .testimony .slick-prev{
     left: 0;
   }
-  .slick-slide .card{
+  .testimony .slick-slide .card{
     margin: 0 2.5%;
     height: 65vh;
     width: 100%;
     min-height: 350px;
     max-height: 450px;
   }
-  .slick-slide .card-body .card-text{
+  .testimony .slick-slide .card-body .card-text{
     height: 38vh;
     min-height: 150px;
     max-height: 200px;
   }
 }
+

@@ -12,8 +12,8 @@ const TestimonyCardSlider = ({ data }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 8000,
     responsive: [
       {
         breakpoint: 1400,
@@ -43,7 +43,7 @@ const TestimonyCardSlider = ({ data }) => {
   };
 
   return (
-    <>
+    <div className="testimony py-5">
       <h1 className="principal-title">Testimonios</h1>
       <div className="testimony-slider container">
         <Slider {...sliderSettings}>
@@ -66,7 +66,7 @@ const TestimonyCardSlider = ({ data }) => {
           ))}
         </Slider>
       </div>
-    </>
+    </div>
   );
 };
 
