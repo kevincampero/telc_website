@@ -4,7 +4,7 @@ import "./callout.css";
 
 const Callout = ({ image, smallTitle, title, description, buttonText, buttonUrl }) => {
   return (
-    <div className="callout d-flex container py-5">
+    <div className={"callout d-flex container py-5"}>
       <div className="callout-image col-lg-6 col-sm-12">
         <img src={image} alt="Callout Image" style={{width: "100%"}} />
       </div>
