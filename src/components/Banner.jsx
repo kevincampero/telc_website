@@ -14,9 +14,9 @@ const Banner = () => {
           </p>
           <div className="input-group mb-3">
             <input
-              type="email"
+              type="number"
               className="form-control"
-              placeholder="Correo electrónico"
+              placeholder="Número de Celular"
             />
             <div className="input-group-append">
               <button

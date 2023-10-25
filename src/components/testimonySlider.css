@@ -83,4 +83,14 @@
     max-height: 200px;
   }
 }
+@media (max-width: 425px) {
+  .testimony .slick-slide .card{
+    margin: 0 2.5%;
+    height: 450px;
+    width: 100%;
+  }
+  .testimony .slick-slide .card .card-body{
+    font-size: 13.8px;
+  }
+}
 

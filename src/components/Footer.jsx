@@ -19,7 +19,7 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <NavLink to="/" className="text-light">
-                  Home
+                  Inicio
                 </NavLink>
               </li>
               <li>
@@ -29,12 +29,12 @@ const Footer = () => {
               </li>
               <li>
                 <NavLink to="/about" className="text-light">
-                  About
+                  Acerca de Nosotros
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/contact" className="text-light">
-                  Contact
+                  Contacto
                 </NavLink>
               </li>
             </ul>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com" className="text-light">
+                <a href="https://x.com" className="text-light">
                   <FaTwitter /> Twitter
                 </a>
               </li>

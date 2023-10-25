@@ -1,13 +1,37 @@
+.callout .callout-image{
+  max-height: 430px;
+  display: flex;
+}
+.reverse .callout-content {
+  order: 2;
+}
+.reverse .callout-image {
+  order: 1;
+}
+.callout-content .small-title {
+  color: #c71c3b; 
+  font-size: 20px;
+}
+.reverse .callout-content .small-title {
+  color: #33234e; 
+}
 .callout .callout-content .main-title {
   font-size: 40px;
 }
-
+.reverse .callout-button {
+  background-color: transparent;
+  border: 2px solid #33234e;
+  color: #33234e
+}
+.reverse .callout-button:hover {
+  background-color: #33234e;
+  color: white;
+}
 .callout-button {
   background-color: transparent;
   border: 2px solid #c71c3b;
   color: #c71c3b
 }
-
 .callout-button:hover {
   background-color: #c71c3b;
   color: white;

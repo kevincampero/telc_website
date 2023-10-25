@@ -12,14 +12,21 @@
 .navbar a{
   font-size: 20px;
 }
+.navbar a img{
+  max-height: 80px;
+}
 .back-nav{
-  height: 90px;
+  height: 106px;
 }
 #navbarNav{
   position: relative;
 }
+#navbarNav .navbar-nav{
+  margin-right: 71px;
+  margin-left: 71px;
+}
 #navbarNav .nav-item{
-  margin: 0 15px;
+  margin: 0 10px;
 }
 #navbarNav .nav-link.active {
   border-bottom: 2px solid #c71c3b;
@@ -36,8 +43,16 @@
   color: #fff;
 }
 @media (max-width: 991px) {
+
+  .navbar a img{
+    max-height: 60px;
+  }
+  #navbarNav .navbar-nav{
+    margin-right: 0;
+    margin-left: 0;
+  }
   .back-nav{
-    height: 56px;
+    height: 86px;
   }
   #navbarNav .btn-courses{
     min-width: 100%;

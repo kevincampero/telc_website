@@ -17,10 +17,10 @@ const Header = () => {
   }, []);
   return (
   <>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary py-lg-4">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container">
         <a className="navbar-brand" href="/">
-          TELC
+          <img src="../src/assets/logos/logo-base-removebg1.png" alt="logo del instituto TELC" />
         </a>
         <button
           className="navbar-toggler"
@@ -47,7 +47,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/nosotros">
-                Acerca de Nosotros
+                Nosotros
               </NavLink>
             </li>
             <li className="nav-item">

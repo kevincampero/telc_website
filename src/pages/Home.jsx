@@ -65,6 +65,19 @@ const Home = () => {
         />
       </div>
       <Callout
+        image="../src/assets/callout/flag.jpg"
+        smallTitle="Estamos en toda Bolivia"
+        title="Cursos de Calidad Presencial y en Línea"
+        description="El instituto TELC te ayuda a progresar en tu carrera y cumplir tus metas. Ya sea que prefieras aprender de forma presencial en Cochabamba o en línea desde cualquier ciudad de Bolivia, tenemos la flexibilidad que necesitas.
+
+        Nuestra entidad, con alcance a nivel nacional, se enorgullece de enviar certificados de valor curricular a cualquier parte de Bolivia. Garantizamos la calidad de nuestra formación y te ayudamos a alcanzar tus metas educativas.
+
+        ¿Listo para comenzar tu viaje educativo? ¡No esperes más! Descubre todo lo que tenemos para ofrecerte y toma el control de tu futuro."
+        buttonText="¿Cómo hacemos los envíos?"
+        buttonUrl="/blog"
+        reverse={false}
+      />
+      <Callout
         image="../src/assets/callout/students.jpg"
         smallTitle="Nuestra Oferta Educativa"
         title="Cursos de Calidad para tu Éxito"
@@ -73,6 +86,7 @@ const Home = () => {
         ¿Estás listo para comenzar tu viaje educativo? ¡No esperes más! Descubre todo lo que tenemos para ofrecerte y toma el control de tu futuro."
         buttonText="Explora Nuestros Cursos"
         buttonUrl="/cursos"
+        reverse={true}
       />
       <Statement
         title="Contamos con"

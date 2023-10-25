@@ -5,9 +5,15 @@
   width: 300px !important;
   height: 360px;
   padding: 0;
+  overflow: hidden;
 }
 .slider-courses .slick-slide .card img{
   max-height: 198px;
+  transition: ease-out .2s;
+}
+.slider-courses .slick-slide .card:hover img{
+  transform: scale(1.1);
+  transition: ease-in .2s;
 }
 .slider-courses .slick-slide .card-body .card-text{
   font-size: 23px;
@@ -67,6 +73,7 @@
   .slider-courses .slick-slide .card img{
     max-height: 325px;
     min-height: 300px;
+    
   }
   .slider-courses .slick-slide .card-body .card-text{
     height: 38vh;
