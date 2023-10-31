@@ -1,0 +1,33 @@
+.blog{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.blog .notices-grid{
+    width: 100%;
+    margin: auto;
+}
+.blog .col{
+    display: flex;
+}
+.blog a{
+    text-decoration: none;
+}
+.notice{
+    width: 100%;
+    margin: 0;
+}
+.notice img{
+    height: 265px;
+    object-fit: cover;
+}
+.notice .card-title{
+    font-weight: 600;
+}
+.notice .card-text{
+    min-height: 178px;
+}
+.notice .btn{
+    background-color: #33234e;
+}

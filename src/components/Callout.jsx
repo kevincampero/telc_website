@@ -21,6 +21,7 @@ const Callout = ({ image, smallTitle, title, description, buttonText, buttonUrl,
           </button>
         </a>
       </div>
+      <br />
       <div className="callout-image col-lg-6 col-sm-12">
         <img src={image} alt="Callout Image" style={{ width: "100%" }} />
       </div>

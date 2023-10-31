@@ -2,6 +2,9 @@
   max-height: 430px;
   display: flex;
 }
+.callout .callout-image img{
+  object-fit: cover;
+}
 .reverse .callout-content {
   order: 2;
 }
