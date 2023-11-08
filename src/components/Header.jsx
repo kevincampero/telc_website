@@ -20,7 +20,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container">
         <a className="navbar-brand" href="/">
-          <img src="../src/assets/logos/logo-base-removebg1.png" alt="logo del instituto TELC" />
+          <img src="/assets/logos/logo-base-removebg1.png" alt="logo del instituto TELC" />
         </a>
         <button
           className="navbar-toggler"

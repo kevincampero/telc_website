@@ -1,5 +1,5 @@
 .banner{
-  background-image: url('./src/assets/banner/banner.jpg');
+  background-image: url('/assets/banner/banner.jpg');
   height: 80vh;
   min-height: 550px;
   background-size: cover;

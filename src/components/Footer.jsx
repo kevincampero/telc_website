@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-3">
             <div className="mb-3 d-flex flex-column justify-content-center align-items-center">
-              <img src="../src/assets/logos/logo-base-removebg1.png" alt="Logo TELC" />
+              <img src="/assets/logos/logo-base-removebg1.png" alt="Logo TELC" />
               <br />
               <p>Instituto de Capacitación Técnica</p>
             </div>
